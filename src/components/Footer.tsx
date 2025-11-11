@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-display font-bold mb-4">Luxe Glow Salon</h3>
+            <h3 className="text-xl font-display font-bold mb-4">Rain Vibes Salon</h3>
             <p className="text-sm opacity-90 mb-4">
               Where beauty meets relaxation. Experience premium treatments in our luxurious atmosphere.
             </p>
@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span>info@luxeglowsalon.com</span>
+                <span>info@rainvibessalon.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin size={16} />
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center text-sm opacity-75">
-          <p>© 2024 Luxe Glow Salon. All rights reserved.</p>
+          <p>© 2024 Rain Vibes Salon. All rights reserved.</p>
           <p className="mt-2 text-xs italic">Men's salon services available.</p>
         </div>
       </div>

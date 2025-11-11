@@ -58,7 +58,7 @@ const About = () => {
             Our Mission
           </h2>
           <p className="text-lg text-muted-foreground text-center leading-relaxed mb-8 animate-fade-up">
-            At Luxe Glow Salon, our mission is to provide an unparalleled beauty experience that
+            At Rain Vibes Salon, our mission is to provide an unparalleled beauty experience that
             combines expert care, premium products, and a tranquil atmosphere. We believe that
             every client deserves to feel pampered, confident, and beautiful.
           </p>
@@ -102,10 +102,10 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in">
               <h2 className="text-4xl font-display font-bold mb-6 text-primary">
-                The Luxe Glow Experience
+                The Rain Vibes Experience
               </h2>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                When you visit Luxe Glow Salon, you're not just getting a treatment—you're
+                When you visit Rain Vibes Salon, you're not just getting a treatment—you're
                 embarking on a journey of transformation and relaxation. Our salon is designed
                 to be your personal sanctuary, a place where stress melts away and beauty
                 flourishes.

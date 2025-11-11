@@ -35,7 +35,7 @@ const Home = () => {
     },
     {
       name: "Emily Chen",
-      text: "Luxe Glow Salon has become my sanctuary. The staff is amazing and the results are always perfect.",
+      text: "Rain Vibes Salon has become my sanctuary. The staff is amazing and the results are always perfect.",
     },
   ];
 
@@ -71,10 +71,10 @@ const Home = () => {
       <section className="py-20 px-4 bg-background">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-primary animate-fade-up">
-            Welcome to Luxe Glow
+            Welcome to Rain Vibes
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed animate-fade-up">
-            Step into a world where luxury meets expertise. At Luxe Glow Salon, we believe that
+            Step into a world where luxury meets expertise. At Rain Vibes Salon, we believe that
             beauty is more than skin deep—it's about feeling confident, refreshed, and pampered.
             Our team of expert professionals is dedicated to providing you with an unparalleled
             experience in our serene, elegant environment.
@@ -89,7 +89,7 @@ const Home = () => {
             <div className="animate-slide-in">
               <h2 className="text-4xl font-display font-bold mb-6 text-primary">Our Story</h2>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                Founded with a vision to redefine beauty and wellness, Luxe Glow Salon has been
+                Founded with a vision to redefine beauty and wellness, Rain Vibes Salon has been
                 a sanctuary for those seeking premium care and relaxation. Our journey began with
                 a simple belief: everyone deserves to feel beautiful.
               </p>

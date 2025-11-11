@@ -36,7 +36,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: "info@luxeglowsalon.com",
+      details: "info@rainvibessalon.com",
     },
     {
       icon: Clock,
