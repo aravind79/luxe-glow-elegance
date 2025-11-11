@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import facialImage from "@/assets/service-facial.jpg";
 import pedicureImage from "@/assets/service-pedicure.jpg";
 import manicureImage from "@/assets/service-manicure.jpg";
+import footSpaImage from "@/assets/service-foot-spa.jpg";
 
 const Services = () => {
   const services = [
@@ -44,7 +45,7 @@ const Services = () => {
     },
     {
       title: "Foot Spa",
-      image: pedicureImage,
+      image: footSpaImage,
       description: "Indulge in a relaxing foot spa experience with aromatherapy.",
       details: [
         "Warm water soak with essential oils",
