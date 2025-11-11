@@ -7,6 +7,7 @@ import facialImage from "@/assets/service-facial.jpg";
 import pedicureImage from "@/assets/service-pedicure.jpg";
 import manicureImage from "@/assets/service-manicure.jpg";
 import footSpaImage from "@/assets/service-foot-spa.jpg";
+import hotOilImage from "@/assets/service-hot-oil.jpg";
 
 const Services = () => {
   const services = [
@@ -67,7 +68,7 @@ const Services = () => {
     },
     {
       title: "Hot Oil Treatment",
-      image: manicureImage,
+      image: hotOilImage,
       description: "Nourish and strengthen your hair with our premium hot oil therapy.",
       details: [
         "Scalp analysis and preparation",
