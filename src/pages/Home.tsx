@@ -8,6 +8,7 @@ import pedicureImage from "@/assets/service-pedicure.jpg";
 import manicureImage from "@/assets/service-manicure.jpg";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import RainAnimation from "@/components/RainAnimation";
 
 const Home = () => {
   const services = [
@@ -51,6 +52,8 @@ const Home = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60" />
         </div>
+        
+        <RainAnimation />
         
         <div className="relative z-10 text-center text-primary-foreground px-4 animate-fade-up">
           <h1 className="text-5xl md:text-7xl font-display font-bold mb-6">
