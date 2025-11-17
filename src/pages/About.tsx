@@ -8,23 +8,23 @@ const About = () => {
   const values = [
     {
       icon: Award,
-      title: "Excellence",
-      description: "We strive for perfection in every service we provide",
+      title: "Focused Service",
+      description: "Individual attention in a quiet, distraction-free environment designed for your comfort",
     },
     {
       icon: Heart,
-      title: "Care",
-      description: "Your wellbeing and satisfaction are our top priorities",
+      title: "Rain-Themed Ambiance",
+      description: "Immersive nature-inspired atmosphere that promotes deep relaxation and tranquility",
     },
     {
       icon: Users,
-      title: "Community",
-      description: "Building lasting relationships with our valued clients",
+      title: "Expert Care",
+      description: "Professional treatments delivered by skilled specialists with years of experience",
     },
     {
       icon: Star,
-      title: "Innovation",
-      description: "Staying ahead with the latest beauty treatments and techniques",
+      title: "Premium Accessibility",
+      description: "Luxury grooming made accessible for middle and upper-middle class gentlemen",
     },
   ];
 
@@ -43,10 +43,10 @@ const About = () => {
         
         <div className="relative z-10 text-center text-primary-foreground px-4 animate-fade-up">
           <h1 className="text-5xl md:text-7xl font-display font-bold mb-4">
-            About Us
+            About Rain Vibes Salon
           </h1>
           <p className="text-xl md:text-2xl font-light">
-            Dedicated to Your Beauty and Wellness
+            Dubai's Premier Men's Grooming & Wellness Sanctuary
           </p>
         </div>
       </section>
@@ -58,14 +58,17 @@ const About = () => {
             Our Mission
           </h2>
           <p className="text-lg text-muted-foreground text-center leading-relaxed mb-8 animate-fade-up">
-            At Rain Vibes Salon, our mission is to provide an unparalleled beauty experience that
-            combines expert care, premium products, and a tranquil atmosphere. We believe that
-            every client deserves to feel pampered, confident, and beautiful.
+            At Rain Vibes Salon, we are dedicated to providing premium men's grooming and wellness services 
+            in a focused, distraction-free environment. Our newly opened facility in Bur Dubai offers a unique 
+            rain-themed sanctuary where gentlemen can experience expert care, complete relaxation, and individual 
+            attention tailored to their specific needs.
           </p>
           <p className="text-lg text-muted-foreground text-center leading-relaxed animate-fade-up">
-            Our team of certified professionals is passionate about delivering exceptional results
-            while ensuring your comfort and satisfaction. From the moment you step through our
-            doors, you'll experience the difference that true luxury and personalized care can make.
+            We believe that every man deserves access to quality pampering and professional treatments without 
+            compromise. From therapeutic foot reflexology to premium facial treatments, we combine traditional 
+            wellness practices with modern grooming techniques, all delivered by our skilled team in an atmosphere 
+            designed for tranquility and rejuvenation. Our commitment is to make luxury grooming accessible to 
+            middle and upper-middle class clients who value excellence and serenity.
           </p>
         </div>
       </section>

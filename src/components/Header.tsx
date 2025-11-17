@@ -40,7 +40,9 @@ const Header = () => {
                 {link.label}
               </Link>
             ))}
-            <Button className="gradient-primary">Book Now</Button>
+            <Link to="/contact">
+              <Button className="gradient-primary">Book Now</Button>
+            </Link>
           </nav>
 
           <button
@@ -66,7 +68,9 @@ const Header = () => {
                   {link.label}
                 </Link>
               ))}
-              <Button className="gradient-primary w-full">Book Now</Button>
+              <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+                <Button className="gradient-primary w-full">Book Now</Button>
+              </Link>
             </nav>
           </div>
         )}

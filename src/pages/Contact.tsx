@@ -26,12 +26,12 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      details: "123 Beauty Street, Suite 100",
+      details: "Shop #404, Dr Saeed Al Yousuf Building, Next to York International Hotel, Sharaf DG Metro Exit 3, Al Suq Al Kabeer, Bur Dubai, UAE",
     },
     {
       icon: Phone,
       title: "Phone",
-      details: "+1 (555) 123-4567",
+      details: "+971 50 772 1465",
     },
     {
       icon: Mail,
@@ -41,7 +41,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Hours",
-      details: "Mon-Fri: 9AM-8PM, Sat: 10AM-6PM",
+      details: "Daily: 10:00 AM - 10:00 PM",
     },
   ];
 
@@ -53,10 +53,10 @@ const Contact = () => {
       <section className="gradient-primary text-primary-foreground py-24 px-4 mt-20">
         <div className="container mx-auto text-center max-w-3xl animate-fade-up">
           <h1 className="text-5xl md:text-7xl font-display font-bold mb-6">
-            Get in Touch
+            Visit Us in Bur Dubai
           </h1>
           <p className="text-xl md:text-2xl font-light opacity-90">
-            We'd love to hear from you. Reach out to book your appointment or ask any questions.
+            We're conveniently located near Sharaf DG Metro Station. Reach out to book your appointment or inquire about our services.
           </p>
         </div>
       </section>
@@ -160,13 +160,13 @@ const Contact = () => {
               <Card className="mt-6 overflow-hidden shadow-medium">
                 <div className="aspect-video bg-muted">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes+Square!5e0!3m2!1sen!2sus!4v1510579767645"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5447845289987!2d55.29686931500829!3d25.25926098387891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBur%20Dubai%2C%20Dubai%2C%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1637000000000!5m2!1sen!2s"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
-                    title="Salon Location"
+                    title="Rain Vibes Salon Location - Bur Dubai"
                   />
                 </div>
               </Card>
