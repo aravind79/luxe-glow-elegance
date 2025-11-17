@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-display font-bold mb-4">Rain Vibes Salon</h3>
             <p className="text-sm opacity-90 mb-4">
-              Dubai's premier men's salon offering focused grooming services in a tranquil rain-themed environment. 
+              Dubai's premier men's salon offering focused grooming services in a tranquil nature-inspired environment. 
               Experience the perfect blend of relaxation and professional care.
             </p>
           </div>

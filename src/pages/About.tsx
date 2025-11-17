@@ -13,7 +13,7 @@ const About = () => {
     },
     {
       icon: Heart,
-      title: "Rain-Themed Ambiance",
+      title: "Tranquil Ambiance",
       description: "Immersive nature-inspired atmosphere that promotes deep relaxation and tranquility",
     },
     {
@@ -60,7 +60,7 @@ const About = () => {
           <p className="text-lg text-muted-foreground text-center leading-relaxed mb-8 animate-fade-up">
             At Rain Vibes Salon, we are dedicated to providing premium men's grooming and wellness services 
             in a focused, distraction-free environment. Our newly opened facility in Bur Dubai offers a unique 
-            rain-themed sanctuary where gentlemen can experience expert care, complete relaxation, and individual 
+            sanctuary where gentlemen can experience expert care, complete relaxation, and individual 
             attention tailored to their specific needs.
           </p>
           <p className="text-lg text-muted-foreground text-center leading-relaxed animate-fade-up">
