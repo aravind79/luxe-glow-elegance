@@ -8,12 +8,15 @@ import pedicureImage from "@/assets/service-pedicure.jpg";
 import manicureImage from "@/assets/service-manicure.jpg";
 import footSpaImage from "@/assets/service-foot-spa.jpg";
 import hotOilImage from "@/assets/service-hot-oil.jpg";
+import footReflexologyImage from "@/assets/service-foot-reflexology.jpg";
+import hardSkinImage from "@/assets/service-hard-skin.jpg";
+import bodyTreatmentImage from "@/assets/service-body-treatment.jpg";
 
 const Services = () => {
   const services = [
     {
       title: "Foot Reflexology",
-      image: footSpaImage,
+      image: footReflexologyImage,
       description: "Therapeutic foot reflexology promoting relaxation and wellness through pressure point massage.",
       details: [
         "Targeted pressure point therapy",
@@ -36,7 +39,7 @@ const Services = () => {
     {
       title: "Foot Spa",
       image: footSpaImage,
-      description: "Luxurious foot spa treatment with aromatherapy in our signature rain-themed ambiance.",
+      description: "Luxurious foot spa treatment with aromatherapy in our signature calming ambiance.",
       details: [
         "Warm water soak with essential oils",
         "Deep cleansing and exfoliation",
@@ -57,7 +60,7 @@ const Services = () => {
     },
     {
       title: "Hard Skin Removal (Foot)",
-      image: pedicureImage,
+      image: hardSkinImage,
       description: "Expert removal of calluses and hard skin for smooth, refreshed feet.",
       details: [
         "Professional callus removal",
@@ -79,7 +82,7 @@ const Services = () => {
     },
     {
       title: "Whole Body Dry Skin Treatment",
-      image: facialImage,
+      image: bodyTreatmentImage,
       description: "Comprehensive full-body treatment targeting dry skin with intensive moisturization.",
       details: [
         "Full body exfoliation",
@@ -123,7 +126,7 @@ const Services = () => {
             Our Premium Services
           </h1>
           <p className="text-xl md:text-2xl font-light opacity-90">
-            Discover our comprehensive range of men's grooming and wellness treatments in a tranquil rain-themed sanctuary
+            Discover our comprehensive range of men's grooming and wellness treatments in a tranquil sanctuary
           </p>
         </div>
       </section>

@@ -81,7 +81,7 @@ const Home = () => {
           <p className="text-lg text-muted-foreground leading-relaxed animate-fade-up">
             Welcome to our newly opened facility in the heart of Bur Dubai, where we offer focused salon services 
             exclusively for gentlemen. Experience premium foot care and spa, pedicure, hot oil treatments, and facial 
-            services—all delivered in a tranquil rain-themed environment. Our personalized approach ensures you receive 
+            services—all delivered in a tranquil, nature-inspired environment. Our personalized approach ensures you receive 
             individual attention without distractions, allowing you to fully relax and rejuvenate. Whether you're 
             from the middle class or upper middle class seeking quality pampering, Rain Vibes Salon is your destination 
             for exceptional grooming and wellness.
@@ -101,7 +101,7 @@ const Home = () => {
                 relax, rejuvenate, and receive focused attention without the hustle of traditional salons.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Our rain and forest-themed ambiance isn't just aesthetic—it's designed to transport you 
+                Our serene ambiance isn't just aesthetic—it's designed to transport you 
                 away from the city's bustle into a peaceful oasis. From therapeutic foot reflexology to 
                 premium skin treatments, every service is delivered with precision and care by our expert 
                 team. We cater to discerning clients who value quality, privacy, and exceptional results.
@@ -127,9 +127,9 @@ const Home = () => {
                     <Heart className="text-primary" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-display font-semibold mb-2">Rain-Themed Ambiance</h3>
+                    <h3 className="font-display font-semibold mb-2">Tranquil Atmosphere</h3>
                     <p className="text-sm text-muted-foreground">
-                      Immerse yourself in our unique rain and nature-inspired calming atmosphere
+                      Immerse yourself in our unique nature-inspired calming sanctuary
                     </p>
                   </div>
                 </div>
