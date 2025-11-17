@@ -12,69 +12,102 @@ import hotOilImage from "@/assets/service-hot-oil.jpg";
 const Services = () => {
   const services = [
     {
-      title: "Facial Treatments",
-      image: facialImage,
-      description: "Rejuvenate and refresh your skin with our expert facial treatments.",
+      title: "Foot Reflexology",
+      image: footSpaImage,
+      description: "Therapeutic foot reflexology promoting relaxation and wellness through pressure point massage.",
       details: [
-        "Deep cleansing and exfoliation",
-        "Customized masks and serums",
-        "Anti-aging treatments",
-        "Hydration therapy",
+        "Targeted pressure point therapy",
+        "Stress relief and circulation improvement",
+        "Traditional reflexology techniques",
+        "Customized session duration",
       ],
     },
     {
-      title: "Pedicure",
-      image: pedicureImage,
-      description: "Pamper your feet with our luxurious pedicure services.",
-      details: [
-        "Nail shaping and buffing",
-        "Cuticle care and massage",
-        "Exfoliation and moisturizing",
-        "Polish application",
-      ],
-    },
-    {
-      title: "Manicure",
+      title: "Hand Reflexology",
       image: manicureImage,
-      description: "Perfect, beautiful nails with our professional manicure treatments.",
+      description: "Rejuvenating hand reflexology to release tension and promote overall wellbeing.",
       details: [
-        "Nail shaping and filing",
-        "Cuticle treatment",
-        "Hand massage",
-        "Premium polish application",
+        "Pressure point stimulation",
+        "Relaxation of hand and wrist muscles",
+        "Improved energy flow",
+        "Stress reduction therapy",
       ],
     },
     {
       title: "Foot Spa",
       image: footSpaImage,
-      description: "Indulge in a relaxing foot spa experience with aromatherapy.",
+      description: "Luxurious foot spa treatment with aromatherapy in our signature rain-themed ambiance.",
       details: [
         "Warm water soak with essential oils",
-        "Foot scrub and exfoliation",
-        "Pressure point massage",
-        "Moisturizing treatment",
+        "Deep cleansing and exfoliation",
+        "Soothing massage and moisturizing",
+        "Complete relaxation experience",
       ],
     },
     {
-      title: "Whole Body Skin Treatment",
-      image: facialImage,
-      description: "Complete body care with our comprehensive skin treatment packages.",
+      title: "Pedicure & Manicure",
+      image: pedicureImage,
+      description: "Professional nail care services designed specifically for men's grooming needs.",
       details: [
-        "Full body exfoliation",
-        "Deep moisturizing therapy",
-        "Skin brightening treatment",
-        "Relaxation massage",
+        "Nail shaping and buffing",
+        "Cuticle care and treatment",
+        "Exfoliation and moisturizing",
+        "Optional polish application",
+      ],
+    },
+    {
+      title: "Hard Skin Removal (Foot)",
+      image: pedicureImage,
+      description: "Expert removal of calluses and hard skin for smooth, refreshed feet.",
+      details: [
+        "Professional callus removal",
+        "Gentle exfoliation techniques",
+        "Smoothing and softening treatment",
+        "Long-lasting results",
       ],
     },
     {
       title: "Hot Oil Treatment",
       image: hotOilImage,
-      description: "Nourish and strengthen your hair with our premium hot oil therapy.",
+      description: "Premium hot oil therapy to nourish scalp and strengthen hair with deep conditioning.",
       details: [
         "Scalp analysis and preparation",
-        "Premium oil selection",
+        "Premium natural oil selection",
         "Deep conditioning treatment",
-        "Relaxing head massage",
+        "Relaxing head and scalp massage",
+      ],
+    },
+    {
+      title: "Whole Body Dry Skin Treatment",
+      image: facialImage,
+      description: "Comprehensive full-body treatment targeting dry skin with intensive moisturization.",
+      details: [
+        "Full body exfoliation",
+        "Deep moisturizing therapy",
+        "Skin texture improvement",
+        "Hydration restoration",
+      ],
+    },
+    {
+      title: "Head, Shoulder & Leg Massage",
+      image: hotOilImage,
+      description: "Therapeutic massage focusing on key tension areas for complete body relaxation.",
+      details: [
+        "Targeted muscle tension relief",
+        "Improved blood circulation",
+        "Stress and fatigue reduction",
+        "Professional massage techniques",
+      ],
+    },
+    {
+      title: "Facial Treatment",
+      image: facialImage,
+      description: "Rejuvenating facial treatments designed for men's skin, promoting clarity and freshness.",
+      details: [
+        "Deep cleansing and exfoliation",
+        "Customized facial masks",
+        "Skin tone improvement",
+        "Anti-aging and hydration therapy",
       ],
     },
   ];
@@ -87,10 +120,10 @@ const Services = () => {
       <section className="gradient-primary text-primary-foreground py-24 px-4 mt-20">
         <div className="container mx-auto text-center max-w-3xl animate-fade-up">
           <h1 className="text-5xl md:text-7xl font-display font-bold mb-6">
-            Our Services
+            Our Premium Services
           </h1>
           <p className="text-xl md:text-2xl font-light opacity-90">
-            Discover our range of premium beauty and wellness treatments
+            Discover our comprehensive range of men's grooming and wellness treatments in a tranquil rain-themed sanctuary
           </p>
         </div>
       </section>

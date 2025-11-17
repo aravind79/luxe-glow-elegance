@@ -14,30 +14,30 @@ import LeafAnimation from "@/components/LeafAnimation";
 const Home = () => {
   const services = [
     {
-      title: "Facial Treatments",
-      description: "Rejuvenate your skin with our premium facial services",
-      image: facialImage,
-    },
-    {
-      title: "Pedicure",
-      description: "Pamper your feet with our luxurious pedicure treatments",
+      title: "Foot Spa & Reflexology",
+      description: "Indulge in our signature foot spa experience with therapeutic reflexology in a calming environment",
       image: pedicureImage,
     },
     {
-      title: "Manicure",
-      description: "Perfect nails with our expert manicure services",
+      title: "Pedicure & Manicure",
+      description: "Expert nail care and grooming services tailored for the modern gentleman",
       image: manicureImage,
+    },
+    {
+      title: "Facial Treatments",
+      description: "Rejuvenate and refresh your skin with our professional facial treatments designed for men",
+      image: facialImage,
     },
   ];
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      text: "The most relaxing and professional salon experience I've ever had. The attention to detail is incredible!",
+      name: "Ahmed Al-Mansoori",
+      text: "The foot spa and reflexology service is exceptional. The rain-themed ambiance creates such a peaceful atmosphere - truly a sanctuary in the heart of Dubai.",
     },
     {
-      name: "Emily Chen",
-      text: "Rain Vibes Salon has become my sanctuary. The staff is amazing and the results are always perfect.",
+      name: "Rahul Sharma",
+      text: "Finally, a premium salon that understands men's grooming needs. Professional staff, focused treatments, and complete relaxation without any distractions. Highly recommend!",
     },
   ];
 
@@ -76,13 +76,15 @@ const Home = () => {
       <section className="py-20 px-4 bg-background">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-primary animate-fade-up">
-            Welcome to Rain Vibes
+            Welcome to Rain Vibes Salon
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed animate-fade-up">
-            Step into a world where luxury meets expertise. At Rain Vibes Salon, we believe that
-            beauty is more than skin deep—it's about feeling confident, refreshed, and pampered.
-            Our team of expert professionals is dedicated to providing you with an unparalleled
-            experience in our serene, elegant environment.
+            Welcome to our newly opened facility in the heart of Bur Dubai, where we offer focused salon services 
+            exclusively for gentlemen. Experience premium foot care and spa, pedicure, hot oil treatments, and facial 
+            services—all delivered in a tranquil rain-themed environment. Our personalized approach ensures you receive 
+            individual attention without distractions, allowing you to fully relax and rejuvenate. Whether you're 
+            from the middle class or upper middle class seeking quality pampering, Rain Vibes Salon is your destination 
+            for exceptional grooming and wellness.
           </p>
         </div>
       </section>
@@ -94,15 +96,15 @@ const Home = () => {
             <div className="animate-slide-in">
               <h2 className="text-4xl font-display font-bold mb-6 text-primary">Our Story</h2>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                Founded with a vision to redefine beauty and wellness, Rain Vibes Salon has been
-                a sanctuary for those seeking premium care and relaxation. Our journey began with
-                a simple belief: everyone deserves to feel beautiful.
+                Rain Vibes Salon was founded with a vision to create a unique sanctuary for men's grooming 
+                and wellness in Dubai. We understand that modern gentlemen deserve a space where they can 
+                relax, rejuvenate, and receive focused attention without the hustle of traditional salons.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                From our carefully curated treatments to our tranquil atmosphere, every detail
-                is designed to transport you to a world of elegance and serenity. We combine
-                traditional techniques with modern innovations to deliver results that exceed
-                expectations.
+                Our rain and forest-themed ambiance isn't just aesthetic—it's designed to transport you 
+                away from the city's bustle into a peaceful oasis. From therapeutic foot reflexology to 
+                premium skin treatments, every service is delivered with precision and care by our expert 
+                team. We cater to discerning clients who value quality, privacy, and exceptional results.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-6 animate-fade-in">
@@ -112,9 +114,9 @@ const Home = () => {
                     <Sparkles className="text-primary" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-display font-semibold mb-2">Premium Products</h3>
+                    <h3 className="font-display font-semibold mb-2">Focused Service</h3>
                     <p className="text-sm text-muted-foreground">
-                      We use only the finest, carefully selected products for optimal results
+                      Individual attention in a distraction-free environment for complete relaxation
                     </p>
                   </div>
                 </div>
@@ -125,9 +127,9 @@ const Home = () => {
                     <Heart className="text-primary" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-display font-semibold mb-2">Personalized Care</h3>
+                    <h3 className="font-display font-semibold mb-2">Rain-Themed Ambiance</h3>
                     <p className="text-sm text-muted-foreground">
-                      Every treatment is tailored to your unique needs and preferences
+                      Immerse yourself in our unique rain and nature-inspired calming atmosphere
                     </p>
                   </div>
                 </div>
@@ -138,9 +140,9 @@ const Home = () => {
                     <Award className="text-primary" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-display font-semibold mb-2">Expert Professionals</h3>
+                    <h3 className="font-display font-semibold mb-2">Premium for Everyone</h3>
                     <p className="text-sm text-muted-foreground">
-                      Our team of certified specialists brings years of experience
+                      Luxury grooming accessible to middle and upper-middle class gentlemen
                     </p>
                   </div>
                 </div>
