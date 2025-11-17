@@ -18,7 +18,7 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-soft border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-soft border-b border-primary/20">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center">
@@ -32,21 +32,21 @@ const Header = () => {
                 to={link.to}
                 className={`font-body font-medium transition-smooth relative ${
                   isActive(link.to)
-                    ? "text-primary"
-                    : "text-foreground hover:text-primary"
+                    ? "text-white"
+                    : "text-primary-foreground hover:text-white"
                 }
-                ${isActive(link.to) ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-primary" : ""}`}
+                ${isActive(link.to) ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-white" : ""}`}
               >
                 {link.label}
               </Link>
             ))}
             <Link to="/contact">
-              <Button className="gradient-primary">Book Now</Button>
+              <Button variant="secondary" className="bg-white text-primary hover:bg-white/90">Book Now</Button>
             </Link>
           </nav>
 
           <button
-            className="md:hidden text-foreground"
+            className="md:hidden text-primary-foreground"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -62,7 +62,7 @@ const Header = () => {
                   key={link.to}
                   to={link.to}
                   className={`font-body font-medium py-2 transition-smooth ${
-                    isActive(link.to) ? "text-primary" : "text-foreground"
+                    isActive(link.to) ? "text-white" : "text-primary-foreground"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -70,7 +70,7 @@ const Header = () => {
                 </Link>
               ))}
               <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
-                <Button className="gradient-primary w-full">Book Now</Button>
+                <Button variant="secondary" className="bg-white text-primary hover:bg-white/90 w-full">Book Now</Button>
               </Link>
             </nav>
           </div>
