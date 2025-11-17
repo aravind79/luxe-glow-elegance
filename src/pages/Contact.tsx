@@ -122,19 +122,31 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="animate-fade-in">
               <div className="space-y-6 mb-8">
-                {contactInfo.map((info, index) => (
-                  <Card key={index} className="p-6 shadow-medium hover:shadow-large transition-smooth">
-                    <div className="flex items-start space-x-4">
-                      <div className="p-3 rounded-full bg-primary/10">
-                        <info.icon className="text-primary" size={24} />
+                {contactInfo.map((info, index) => {
+                  const isPhone = info.title === "Phone";
+                  const isEmail = info.title === "Email";
+                  const content = (
+                    <Card key={index} className="p-6 shadow-medium hover:shadow-large transition-smooth">
+                      <div className="flex items-start space-x-4">
+                        <div className="p-3 rounded-full bg-primary/10">
+                          <info.icon className="text-primary" size={24} />
+                        </div>
+                        <div>
+                          <h3 className="font-display font-semibold text-lg mb-1">{info.title}</h3>
+                          <p className="text-muted-foreground">{info.details}</p>
+                        </div>
                       </div>
-                      <div>
-                        <h3 className="font-display font-semibold text-lg mb-1">{info.title}</h3>
-                        <p className="text-muted-foreground">{info.details}</p>
-                      </div>
-                    </div>
-                  </Card>
-                ))}
+                    </Card>
+                  );
+                  
+                  if (isPhone) {
+                    return <a key={index} href="tel:+971507721465" className="block">{content}</a>;
+                  }
+                  if (isEmail) {
+                    return <a key={index} href="mailto:info@rainvibessalon.com" className="block">{content}</a>;
+                  }
+                  return content;
+                })}
               </div>
 
               {/* Social Media */}

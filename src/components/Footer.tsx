@@ -16,14 +16,14 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-semibold mb-4">Contact Us</h4>
             <div className="space-y-3 text-sm opacity-90">
-              <div className="flex items-center space-x-2">
+              <a href="tel:+971507721465" className="flex items-center space-x-2 hover:opacity-80 transition-smooth">
                 <Phone size={16} />
                 <span>+971 50 772 1465</span>
-              </div>
-              <div className="flex items-center space-x-2">
+              </a>
+              <a href="mailto:info@rainvibessalon.com" className="flex items-center space-x-2 hover:opacity-80 transition-smooth">
                 <Mail size={16} />
                 <span>info@rainvibessalon.com</span>
-              </div>
+              </a>
               <div className="flex items-start space-x-2">
                 <MapPin size={16} className="mt-1 flex-shrink-0" />
                 <span>Shop #404, Dr Saeed Al Yousuf Building, Next to York International Hotel, Sharaf DG Metro Station Exit 3, Bur Dubai, UAE</span>
