@@ -110,7 +110,7 @@ const Home = () => {
                 Our serene ambiance isn't just aesthetic—it's designed to transport you 
                 away from the city's bustle into a peaceful oasis. From therapeutic foot reflexology to 
                 premium skin treatments, every service is delivered with precision and care by our expert 
-                team. We cater to the needs of residence as well as incoming tourists.
+                team. We cater to the needs of residents as well as incoming tourists.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-6 animate-fade-in">
