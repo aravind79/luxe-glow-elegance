@@ -89,7 +89,7 @@ const Home = () => {
             exclusively for gentlemen. Experience premium foot care and spa, pedicure, hot oil treatments, and facial 
             services—all delivered in a tranquil, nature-inspired environment. Our personalized approach ensures you receive 
             individual attention without distractions, allowing you to fully relax and rejuvenate. Whether you're 
-            VIP, professional, or luxury clientele seeking quality pampering, Rain Vibes Salon is your destination 
+            VIP, professional, or luxury clients seeking quality pampering, Rain Vibes Salon is your destination 
             for exceptional wellness.
           </p>
         </div>
@@ -148,7 +148,7 @@ const Home = () => {
                   <div>
                     <h3 className="font-display font-semibold mb-2">Premium for Everyone</h3>
                     <p className="text-sm text-muted-foreground">
-                      Luxury wellness accessible to VIP, professional, or Elite clientele
+                      Luxury wellness accessible to VIP, professional, or Elite clients
                     </p>
                   </div>
                 </div>
