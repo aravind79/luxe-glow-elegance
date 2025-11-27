@@ -37,7 +37,7 @@ const Home = () => {
     },
     {
       name: "Rahul Sharma",
-      text: "Finally, a premium salon that understands men's grooming needs. Professional staff, focused treatments, and complete relaxation without any distractions. Highly recommend!",
+      text: "Finally, an elite salon that understands men's wellness needs. Professional staff, focused treatments, and complete relaxation without any distractions. Highly recommended!",
     },
   ];
 
@@ -58,11 +58,17 @@ const Home = () => {
         <LeafAnimation />
         
         <div className="relative z-10 text-center text-primary-foreground px-4 animate-fade-up">
-          <h1 className="text-5xl md:text-7xl font-display font-bold mb-6">
-            Where Beauty Meets Relaxation
+          <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 leading-tight">
+            You are Elite you deserve more than an ordinary salon experience!
           </h1>
-          <p className="text-xl md:text-2xl mb-8 font-light max-w-2xl mx-auto">
-            Experience the ultimate in luxury beauty treatments
+          <p className="text-lg md:text-xl mb-4 font-light max-w-3xl mx-auto">
+            You seek true relaxation for your body, mind, and soul, where every detail makes you feel royally pampered.
+          </p>
+          <p className="text-lg md:text-xl mb-4 font-light max-w-3xl mx-auto">
+            Imagine a space where a professional touch perfects your nails every week, keeping your hands clean, neat, and elegant all while you unwind in comfort.
+          </p>
+          <p className="text-lg md:text-xl mb-8 font-light max-w-3xl mx-auto">
+            At our salon, we promise warm, personalized service that makes every visit unforgettable and keeps you coming back for more.
           </p>
           <Link to="/contact">
             <Button size="lg" className="gradient-accent text-lg px-8 py-6">
@@ -83,8 +89,8 @@ const Home = () => {
             exclusively for gentlemen. Experience premium foot care and spa, pedicure, hot oil treatments, and facial 
             services—all delivered in a tranquil, nature-inspired environment. Our personalized approach ensures you receive 
             individual attention without distractions, allowing you to fully relax and rejuvenate. Whether you're 
-            from the middle class or upper middle class seeking quality pampering, Rain Vibes Salon is your destination 
-            for exceptional grooming and wellness.
+            VIP, professional, or luxury clientele seeking quality pampering, Rain Vibes Salon is your destination 
+            for exceptional wellness.
           </p>
         </div>
       </section>
@@ -96,15 +102,15 @@ const Home = () => {
             <div className="animate-slide-in">
               <h2 className="text-4xl font-display font-bold mb-6 text-primary">Our Story</h2>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                Rain Vibes Salon was founded with a vision to create a unique sanctuary for men's grooming 
-                and wellness in Dubai. We understand that modern gentlemen deserve a space where they can 
+                Rain Vibes Salon has been founded with a vision to create a unique sanctuary for men's 
+                wellness in Dubai. We understand that modern gentlemen deserve a space where they can 
                 relax, rejuvenate, and receive focused attention without the hustle of traditional salons.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Our serene ambiance isn't just aesthetic—it's designed to transport you 
                 away from the city's bustle into a peaceful oasis. From therapeutic foot reflexology to 
                 premium skin treatments, every service is delivered with precision and care by our expert 
-                team. We cater to discerning clients who value quality, privacy, and exceptional results.
+                team. We cater to the needs of residence as well as incoming tourists.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-6 animate-fade-in">
@@ -129,7 +135,7 @@ const Home = () => {
                   <div>
                     <h3 className="font-display font-semibold mb-2">Tranquil Atmosphere</h3>
                     <p className="text-sm text-muted-foreground">
-                      Immerse yourself in our unique nature-inspired calming sanctuary
+                      Immerse yourself in our unique rain inspired soothing environment
                     </p>
                   </div>
                 </div>
@@ -142,7 +148,7 @@ const Home = () => {
                   <div>
                     <h3 className="font-display font-semibold mb-2">Premium for Everyone</h3>
                     <p className="text-sm text-muted-foreground">
-                      Luxury grooming accessible to middle and upper-middle class gentlemen
+                      Luxury wellness accessible to VIP, professional, or Elite clientele
                     </p>
                   </div>
                 </div>
