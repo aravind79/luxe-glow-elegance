@@ -24,7 +24,7 @@ const About = () => {
     {
       icon: Star,
       title: "Premium Accessibility",
-      description: "Luxury grooming made accessible for middle and upper-middle class gentlemen",
+      description: "Luxury wellness made accessible for VIP, professional, and elite gentlemen",
     },
   ];
 
@@ -46,7 +46,7 @@ const About = () => {
             About Rain Vibes Salon
           </h1>
           <p className="text-xl md:text-2xl font-light">
-            Dubai's Premier Men's Grooming & Wellness Sanctuary
+            Dubai's Elite Men's Wellness Sanctuary
           </p>
         </div>
       </section>
@@ -58,17 +58,17 @@ const About = () => {
             Our Mission
           </h2>
           <p className="text-lg text-muted-foreground text-center leading-relaxed mb-8 animate-fade-up">
-            At Rain Vibes Salon, we are dedicated to providing premium men's grooming and wellness services 
+            At Rain Vibes Salon, we are dedicated to providing elite men's wellness services 
             in a focused, distraction-free environment. Our newly opened facility in Bur Dubai offers a unique 
             sanctuary where gentlemen can experience expert care, complete relaxation, and individual 
             attention tailored to their specific needs.
           </p>
           <p className="text-lg text-muted-foreground text-center leading-relaxed animate-fade-up">
-            We believe that every man deserves access to quality pampering and professional treatments without 
+            We believe that every man deserves access to quality professional treatments without 
             compromise. From therapeutic foot reflexology to premium facial treatments, we combine traditional 
-            wellness practices with modern grooming techniques, all delivered by our skilled team in an atmosphere 
-            designed for tranquility and rejuvenation. Our commitment is to make luxury grooming accessible to 
-            middle and upper-middle class clients who value excellence and serenity.
+            wellness practices with modern techniques, all delivered by our skilled team in an atmosphere 
+            designed for tranquility and rejuvenation. Our commitment is to make luxury wellness accessible to 
+            VIP, professional, and elite clients who value excellence and serenity.
           </p>
         </div>
       </section>

@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-display font-bold mb-4">Rain Vibes Salon</h3>
             <p className="text-sm opacity-90 mb-4">
-              Dubai's premier men's salon offering focused grooming services in a tranquil nature-inspired environment. 
+              Dubai's elite men's wellness center offering focused services in a tranquil nature-inspired environment. 
               Experience the perfect blend of relaxation and professional care.
             </p>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
             <h4 className="font-display font-semibold mb-4">Hours</h4>
             <div className="text-sm opacity-90 space-y-2">
               <p>Open Daily</p>
-              <p className="font-semibold">10:00 AM - 10:00 PM</p>
+              <p className="font-semibold">11:00 AM - 12:00 AM</p>
             </div>
             <div className="flex space-x-4 mt-6">
               <a href="#" className="hover:opacity-80 transition-fast" aria-label="Facebook">
@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center text-sm opacity-75">
           <p>© 2024 Rain Vibes Salon Dubai. All rights reserved.</p>
-          <p className="mt-2 text-xs italic">Premium men's salon services in Bur Dubai.</p>
+          <p className="mt-2 text-xs italic">Elite men's wellness services in Bur Dubai.</p>
         </div>
       </div>
     </footer>
