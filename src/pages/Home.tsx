@@ -32,12 +32,12 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: "Ahmed Al-Mansoori",
-      text: "The foot spa and reflexology service is exceptional. The rain-themed ambiance creates such a peaceful atmosphere - truly a sanctuary in the heart of Dubai.",
+      name: "Sebastian Montgomery",
+      text: "The foot spa and reflexology service was exceptional. The rain-themed ambiance created such a peaceful atmosphere - truly a sanctuary in the heart of Dubai.",
     },
     {
       name: "Rahul Sharma",
-      text: "Finally, an elite salon that understands men's wellness needs. Professional staff, focused treatments, and complete relaxation without any distractions. Highly recommended!",
+      text: "Finally, an elite wellness center that understood men's wellness needs. Professional staff, focused treatments, and complete relaxation without any distractions. Highly recommended!",
     },
   ];
 
@@ -85,11 +85,11 @@ const Home = () => {
             Welcome to Rain Vibes Salon
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed animate-fade-up">
-            Welcome to our newly opened facility in the heart of Bur Dubai, where we offer focused salon services 
+            Welcome to our newly opened facility in the heart of Bur Dubai, where we offer focused wellness services 
             exclusively for gentlemen. Experience premium foot care and spa, pedicure, hot oil treatments, and facial 
             services—all delivered in a tranquil, nature-inspired environment. Our personalized approach ensures you receive 
             individual attention without distractions, allowing you to fully relax and rejuvenate. Whether you're 
-            VIP, professional, or luxury clients seeking quality pampering, Rain Vibes Salon is your destination 
+            VIP, professional, or elite clients seeking quality care, Rain Vibes Salon is your destination 
             for exceptional wellness.
           </p>
         </div>
