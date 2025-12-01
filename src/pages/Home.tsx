@@ -57,21 +57,21 @@ const Home = () => {
         <RainAnimation />
         <LeafAnimation />
         
-        <div className="relative z-10 text-center text-primary-foreground px-4 sm:px-6 lg:px-8 animate-fade-up max-w-5xl mx-auto">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold mb-4 sm:mb-6 md:mb-8 leading-tight">
+        <div className="relative z-10 text-center text-primary-foreground px-4 sm:px-6 lg:px-8 animate-fade-up max-w-4xl mx-auto">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4 sm:mb-5 md:mb-6 leading-tight tracking-tight">
             Hey Man! You are unique, and you deserve to be pampered after stressful days!
           </h1>
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 md:mb-6 font-light max-w-4xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4 font-light max-w-3xl mx-auto leading-relaxed opacity-95">
             Seeking relaxation for your body, mind, and soul is an investment in your own wellness, so you can continue to lead and support the people who depend on you.
           </p>
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 md:mb-6 font-light max-w-4xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4 font-light max-w-3xl mx-auto leading-relaxed opacity-95">
             Imagine a personal space where a professional keeps your nails clean and neat every week, while you freely enjoy a foot or hand spa package.
           </p>
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 md:mb-10 font-light max-w-4xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg mb-6 sm:mb-7 md:mb-8 font-light max-w-3xl mx-auto leading-relaxed opacity-95">
             At our Dubai center, we have created personal spaces where we promise warm and royal treatment that makes every visit an unforgettable experience — and for sure, you will come back for more.
           </p>
           <Link to="/contact">
-            <Button size="lg" className="gradient-accent text-base sm:text-lg md:text-xl px-6 py-5 sm:px-8 sm:py-6 md:px-10 md:py-7">
+            <Button size="lg" className="gradient-accent text-sm sm:text-base md:text-lg px-6 py-3 sm:px-8 sm:py-4">
               Book Your Session
             </Button>
           </Link>
