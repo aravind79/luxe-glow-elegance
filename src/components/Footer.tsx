@@ -38,10 +38,10 @@ const Footer = () => {
               <p className="font-semibold">11:00 AM - 12:00 AM</p>
             </div>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="hover:opacity-80 transition-fast" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=61584694432560" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-fast" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="hover:opacity-80 transition-fast" aria-label="Instagram">
+              <a href="https://www.instagram.com/rainvibesfootspa/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-fast" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
             </div>
