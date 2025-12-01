@@ -59,27 +59,16 @@ const Home = () => {
         
         <div className="relative z-10 text-center text-primary-foreground px-4 animate-fade-up">
           <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 leading-tight">
-            Hey Man!<br />
-            You are unique, and<br />
-            you deserve to be pampered after stressful days!
+            Hey Man! You are unique, and you deserve to be pampered after stressful days!
           </h1>
           <p className="text-lg md:text-xl mb-4 font-light max-w-3xl mx-auto">
-            Seeking relaxation for your body, mind, and soul<br />
-            is an investment in your own wellness,<br />
-            so you can continue to lead and support<br />
-            the people who depend on you.
+            Seeking relaxation for your body, mind, and soul is an investment in your own wellness, so you can continue to lead and support the people who depend on you.
           </p>
           <p className="text-lg md:text-xl mb-4 font-light max-w-3xl mx-auto">
-            Imagine a personal space where<br />
-            a professional keeps your nails clean and neat every week,<br />
-            while you freely enjoy a foot or hand spa package.
+            Imagine a personal space where a professional keeps your nails clean and neat every week, while you freely enjoy a foot or hand spa package.
           </p>
           <p className="text-lg md:text-xl mb-8 font-light max-w-3xl mx-auto">
-            At our Dubai center,<br />
-            we have created personal spaces where we promise<br />
-            warm and royal treatment<br />
-            that makes every visit an unforgettable experience —<br />
-            and for sure, you will come back for more.
+            At our Dubai center, we have created personal spaces where we promise warm and royal treatment that makes every visit an unforgettable experience — and for sure, you will come back for more.
           </p>
           <Link to="/contact">
             <Button size="lg" className="gradient-accent text-lg px-8 py-6">
