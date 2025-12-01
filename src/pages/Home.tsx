@@ -32,8 +32,8 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: "Sebastian Montgomery",
-      text: "The foot spa and reflexology service was exceptional. The rain-themed ambiance created such a peaceful atmosphere - truly a sanctuary in the heart of Dubai.",
+      name: "Peter Hage",
+      text: "The foot spa and reflexology service was exceptional. The rain-themed ambiance created such a peaceful atmosphere.",
     },
     {
       name: "Rahul Sharma",
@@ -59,16 +59,27 @@ const Home = () => {
         
         <div className="relative z-10 text-center text-primary-foreground px-4 animate-fade-up">
           <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 leading-tight">
-            You are Elite you deserve more than an ordinary salon experience!
+            Hey Man!<br />
+            You are unique, and<br />
+            you deserve to be pampered after stressful days!
           </h1>
           <p className="text-lg md:text-xl mb-4 font-light max-w-3xl mx-auto">
-            You seek true relaxation for your body, mind, and soul, where every detail makes you feel royally pampered.
+            Seeking relaxation for your body, mind, and soul<br />
+            is an investment in your own wellness,<br />
+            so you can continue to lead and support<br />
+            the people who depend on you.
           </p>
           <p className="text-lg md:text-xl mb-4 font-light max-w-3xl mx-auto">
-            Imagine a space where a professional touch perfects your nails every week, keeping your hands clean, neat, and elegant all while you unwind in comfort.
+            Imagine a personal space where<br />
+            a professional keeps your nails clean and neat every week,<br />
+            while you freely enjoy a foot or hand spa package.
           </p>
           <p className="text-lg md:text-xl mb-8 font-light max-w-3xl mx-auto">
-            At our salon, we promise warm, personalized service that makes every visit unforgettable and keeps you coming back for more.
+            At our Dubai center,<br />
+            we have created personal spaces where we promise<br />
+            warm and royal treatment<br />
+            that makes every visit an unforgettable experience —<br />
+            and for sure, you will come back for more.
           </p>
           <Link to="/contact">
             <Button size="lg" className="gradient-accent text-lg px-8 py-6">
@@ -85,12 +96,10 @@ const Home = () => {
             Welcome to Rain Vibes Salon
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed animate-fade-up">
-            Welcome to our newly opened facility in the heart of Bur Dubai, where we offer focused wellness services 
+            Welcome to our newly opened facility in the heart of Bur Dubai, where we offer personal care and cosmetic spa and salon services 
             exclusively for gentlemen. Experience premium foot care and spa, pedicure, hot oil treatments, and facial 
             services—all delivered in a tranquil, nature-inspired environment. Our personalized approach ensures you receive 
-            individual attention without distractions, allowing you to fully relax and rejuvenate. Whether you're 
-            VIP, professional, or elite clients seeking quality care, Rain Vibes Salon is your destination 
-            for exceptional wellness.
+            individual attention without distractions, allowing you to fully relax and rejuvenate.
           </p>
         </div>
       </section>
