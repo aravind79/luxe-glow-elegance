@@ -37,7 +37,7 @@ const Contact = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "YOUR_ACCESS_KEY_HERE",
+          access_key: "6ec21afa-1119-4301-9188-1e904f0aebb0",
           subject: "New Booking Request - Rain Vibes Salon",
           from_name: values.name,
           email: values.email,
