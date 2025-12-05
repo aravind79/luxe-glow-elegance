@@ -6,6 +6,10 @@ import heroImage from "@/assets/hero-home.jpg";
 import facialImage from "@/assets/service-facial.jpg";
 import pedicureImage from "@/assets/service-pedicure.jpg";
 import manicureImage from "@/assets/service-manicure.jpg";
+import beforeFootImage from "@/assets/before-foot.jpg";
+import afterFootImage from "@/assets/after-foot.jpg";
+import beforeFacialImage from "@/assets/before-facial.jpg";
+import afterFacialImage from "@/assets/after-facial.jpg";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import RainAnimation from "@/components/RainAnimation";
@@ -93,8 +97,85 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Brand Story Section */}
+      {/* Before & After Section */}
       <section className="py-20 px-4 bg-muted">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-center mb-4 text-primary">
+            Real Results
+          </h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            See the transformation our treatments deliver. Your wellness journey starts here.
+          </p>
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Foot Spa Before/After */}
+            <div className="animate-fade-up">
+              <h3 className="text-2xl font-display font-semibold text-center mb-6 text-primary">
+                Foot Spa Treatment
+              </h3>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="relative overflow-hidden rounded-xl shadow-medium">
+                  <img 
+                    src={beforeFootImage} 
+                    alt="Before foot spa treatment" 
+                    className="w-full aspect-square object-cover"
+                  />
+                  <span className="absolute bottom-3 left-3 bg-destructive/90 text-destructive-foreground px-3 py-1 rounded-full text-sm font-medium">
+                    Before
+                  </span>
+                </div>
+                <div className="relative overflow-hidden rounded-xl shadow-medium">
+                  <img 
+                    src={afterFootImage} 
+                    alt="After foot spa treatment" 
+                    className="w-full aspect-square object-cover"
+                  />
+                  <span className="absolute bottom-3 left-3 bg-primary/90 text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
+                    After
+                  </span>
+                </div>
+              </div>
+              <p className="text-center text-muted-foreground mt-4 text-sm">
+                Smooth, rejuvenated feet after our signature foot spa treatment
+              </p>
+            </div>
+            
+            {/* Facial Before/After */}
+            <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
+              <h3 className="text-2xl font-display font-semibold text-center mb-6 text-primary">
+                Facial Treatment
+              </h3>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="relative overflow-hidden rounded-xl shadow-medium">
+                  <img 
+                    src={beforeFacialImage} 
+                    alt="Before facial treatment" 
+                    className="w-full aspect-square object-cover"
+                  />
+                  <span className="absolute bottom-3 left-3 bg-destructive/90 text-destructive-foreground px-3 py-1 rounded-full text-sm font-medium">
+                    Before
+                  </span>
+                </div>
+                <div className="relative overflow-hidden rounded-xl shadow-medium">
+                  <img 
+                    src={afterFacialImage} 
+                    alt="After facial treatment" 
+                    className="w-full aspect-square object-cover"
+                  />
+                  <span className="absolute bottom-3 left-3 bg-primary/90 text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
+                    After
+                  </span>
+                </div>
+              </div>
+              <p className="text-center text-muted-foreground mt-4 text-sm">
+                Radiant, refreshed skin after our professional facial treatment
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Brand Story Section */}
+      <section className="py-20 px-4 bg-background">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in">
